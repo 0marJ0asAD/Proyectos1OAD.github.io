@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/Paisaje.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="Imágenes/Paisaje Logo.png">
+</head>
+<body>
+    <header class="Encabezado">
+        <video src="Vídeos/Paisaje.mp4" autoplay loop muted></video>
+
+        <div class="Logotipo">
+            <a href="index.html">Viaja</a>
+        </div>
+
+        <div class="Listas-Encabezado-PantallasPC">
+            <li><a href="Pilares.html" target="_blank">Proyecto1</a></li>
+            <li><a href="Pintoras.html" target="_blank">Proyecto2</a></li>
+        </div>
+
+        <div class="BotónHamburguesa">
+            <input type="checkbox" id="Btn-Menu">
+
+            <label for="Btn-Menu" class="Label-Menu">
+                <span id="Spn-1"></span>
+                <span id="Spn-2"></span>
+                <span id="Spn-3"></span>
+            </label>
+
+            <div class="Listas-Encabezado">
+                <li><a href="Pilares.html" target="_blank">Proyecto1</a></li>
+                <li><a href="Pintoras.html" target="_blank">Proyecto2</a></li>
+            </div>
+
+            <main class="Menu-Encabezado">
+
+                <div class="TítuloDelMenu">
+                    <b>Nunca dejes de<br>Explorar el Mundo</b>
+                </div>
+
+                <div class="SubTítuloDelMenu">
+                    <p id="MeEstásConociendo">Todos los Viajes tienen destinos secretos que te toca descubrir</p>
+                </div>
+
+                <div class="BotónDelMenu">
+                    <button type="button" onclick="document.getElementById('MeEstásConociendo').innerHTML = 'Me diste click para explorar, me estás conociendo.'">Explorar</button>
+                    <script src="JavaScript/ScriptDelBotón.js"></script>
+                </div>
+
+            </main>
+
+            <footer class="PieDePágina-RS">
+                <a href="https://www.facebook.com/" target="_blank"><img src="Imágenes/facebook.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="Imágenes/twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="Imágenes/instagram.png" alt="Instagram"></a>
+            </footer>
+
+        </div>
+
+    </header>
+
+    <main class="Menu">
+        <div class="TítuloDelMenu">
+            <b>Nunca dejes de<br>Explorar el Mundo</b>
+        </div>
+
+        <div class="SubTítuloDelMenu">
+            <p id="Conoceme">Todos los Viajes tienen destinos secretos que te toca descubrir.</p>
+        </div>
+
+        <div class="BotónDelMenu">
+            <button type="button" onclick="document.getElementById('Conoceme').innerHTML = 'Me diste click para explorar, me estás conociendo.'">Explorar</button>
+            <script src="JavaScript/ScriptDelBotón.js"></script>
+        </div>
+
+    </main>
+
+    <footer class="PieDePáginaRS">
+        <a href="https://www.facebook.com/" target="_blank"><img src="Imágenes/facebook.png" alt="Facebook"></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="Imágenes/twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="Imágenes/instagram.png" alt="Instagram"></a>
+    </footer>
+
+    <footer class="PieDePágina">
+        <div class="Créditos">
+            <small>Todos los Créditos a Pilares y Escuela de Código</small>
+            <div class="PilaresyEscuelaDeCódigo">
+                <a href="https://pilares.cdmx.gob.mx/inicio" target="_blank"><img src="Imágenes/Pilares Logotipo.png" alt="Pilares"></a>
+                <a href="https://escuelasdecodigo.cdmx.gob.mx/" target="_blank"><img src="Imágenes/Escuela de Código.png" alt="Escuela de Código"></a>
+            </div>
+        </div>
+
+        <div class="RedesSociales">
+            <small>Mis Redes</small>
+            <div class="ImágenesRS">
+                <a href="https://www.linkedin.com/in/omar-aguilar-d%C3%A1vila-64b99921a/" target="_blank"><img src="Imágenes/LinkedIn.png" alt="LinkedIn"></a>
+                <a href="https://github.com/0marJ0asAD" target="_blank"><img src="Imágenes/GitHub.png" alt="GitHub"></a>
+                <a href="https://www.twitter.com/RINT0RIN0" target="_blank"><img src="Imágenes/Twitter (2).png" alt="Twitter"></a>
+                <a href="mailto:OmarJoasAD99@gmail.com" target="_blank"><img src="Imágenes/Gmail.png" alt="Gmail"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

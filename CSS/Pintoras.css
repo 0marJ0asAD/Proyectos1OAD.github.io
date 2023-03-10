@@ -1,0 +1,363 @@
+@charset "UTF-8";
+/* Responsive Design */
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-color: rgb(252, 186, 246);
+  }
+  .Encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado h1 {
+    font-size: 26px;
+    color: rgb(147, 60, 168);
+  }
+  .Encabezado #Subtítulo1 {
+    font-size: 20px;
+    color: purple;
+  }
+  .Encabezado #Texto1 {
+    font-size: 15px;
+  }
+  .Encabezado #Subtítulo2 {
+    font-size: 20px;
+    color: purple;
+  }
+  .Encabezado #Texto2 {
+    font-size: 15px;
+  }
+  .Menu section {
+    text-align: end;
+    font-size: 20px;
+  }
+  .CajasDePintoras {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .CajasDePintoras div {
+    background-color: rgb(177, 92, 177);
+  }
+  .LilliaCarrillo {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .LilliaCarrillo b {
+    font-size: 20px;
+    color: purple;
+  }
+  .LilliaCarrillo p {
+    font-size: 16px;
+    color: rgb(255, 106, 131);
+  }
+  .LilliaCarrillo img {
+    height: 175px;
+    width: 210px;
+  }
+  .LilliaCarrillo em {
+    font-size: 15px;
+  }
+  .LolaCueto {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .LolaCueto b {
+    font-size: 20px;
+    color: purple;
+  }
+  .LolaCueto p {
+    font-size: 16px;
+    color: rgb(255, 106, 131);
+  }
+  .LolaCueto img {
+    height: 175px;
+    width: 210px;
+  }
+  .LolaCueto em {
+    font-size: 15px;
+  }
+  .CeliaCalderon {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .CeliaCalderon b {
+    font-size: 20px;
+    color: purple;
+  }
+  .CeliaCalderon p {
+    font-size: 16px;
+    color: rgb(255, 106, 131);
+  }
+  .CeliaCalderon img {
+    height: 175px;
+    width: 210px;
+  }
+  .CeliaCalderon em {
+    font-size: 15px;
+  }
+  .RemediosVaro {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .RemediosVaro b {
+    font-size: 20px;
+    color: purple;
+  }
+  .RemediosVaro p {
+    font-size: 16px;
+    color: rgb(255, 106, 131);
+  }
+  .RemediosVaro img {
+    height: 175px;
+    width: 210px;
+  }
+  .RemediosVaro em {
+    font-size: 15px;
+  }
+  /* Pie de Página - Referencias */
+  .PieDePágina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Referencias {
+    padding: 20px;
+  }
+  .Referencias li {
+    list-style: none;
+  }
+  .Referencias a {
+    color: black;
+    text-decoration: none;
+  }
+  .Referencias a:hover {
+    color: purple;
+  }
+  /* Pie de Página - Créditos y Redes */
+  .CréditosysusRedes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .CréditosysusRedes small {
+    font-size: 22px;
+  }
+  .PilaresyEscuelaDeCódigo img {
+    height: 50px;
+    width: 75px;
+  }
+  .RedesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .RedesSociales small {
+    font-size: 24px;
+  }
+  .RedesSociales img {
+    height: 35px;
+    width: 40px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(252, 186, 246);
+  }
+  .Encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado h1 {
+    font-size: 50px;
+    color: rgb(147, 60, 168);
+  }
+  .Encabezado #Subtítulo1 {
+    font-size: 40px;
+    color: purple;
+  }
+  .Encabezado #Texto1 {
+    font-size: 30px;
+  }
+  .Encabezado #Subtítulo2 {
+    font-size: 40px;
+    color: purple;
+  }
+  .Encabezado #Texto2 {
+    font-size: 30px;
+  }
+  .Menu #Mujeres {
+    font-size: 40px;
+    display: flex;
+    justify-content: end;
+  }
+  .CajasDePintoras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .CajasDePintoras div {
+    background-color: rgb(177, 92, 177);
+  }
+  .LilliaCarrillo {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .LilliaCarrillo b {
+    font-size: 20px;
+    color: purple;
+  }
+  .LilliaCarrillo p {
+    font-size: 15px;
+    color: rgb(255, 150, 167);
+  }
+  .LilliaCarrillo img {
+    height: 150px;
+    width: 200px;
+  }
+  .LilliaCarrillo em {
+    font-size: 15px;
+  }
+  .LolaCueto {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .LolaCueto b {
+    font-size: 20px;
+    color: purple;
+  }
+  .LolaCueto p {
+    font-size: 15px;
+    color: rgb(255, 150, 167);
+  }
+  .LolaCueto img {
+    height: 150px;
+    width: 200px;
+  }
+  .LolaCueto em {
+    font-size: 15px;
+  }
+  .CeliaCalderon {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .CeliaCalderon b {
+    font-size: 20px;
+    color: purple;
+  }
+  .CeliaCalderon p {
+    font-size: 15px;
+    color: rgb(255, 150, 167);
+  }
+  .CeliaCalderon img {
+    height: 150px;
+    width: 200px;
+  }
+  .CeliaCalderon em {
+    font-size: 15px;
+  }
+  .RemediosVaro {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .RemediosVaro b {
+    font-size: 20px;
+    color: purple;
+  }
+  .RemediosVaro p {
+    font-size: 15px;
+    color: rgb(255, 150, 167);
+  }
+  .RemediosVaro img {
+    height: 150px;
+    width: 200px;
+  }
+  .RemediosVaro em {
+    font-size: 15px;
+  }
+  /* Pie de Página y Referencias */
+  .Referencias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Referencias li {
+    list-style: none;
+  }
+  .Referencias a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  .Referencias a:hover {
+    color: rgb(147, 60, 168);
+  }
+  /* Créditos a Pilares Escuela de Código 
+  y Mis Redes Sociales*/
+  .CréditosysusRedes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .CréditosysusRedes small {
+    font-size: 20px;
+  }
+  .PilaresyEscuelaDeCódigo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .PilaresyEscuelaDeCódigo img {
+    height: 50px;
+    width: 100px;
+  }
+  .RedesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .RedesSociales small {
+    font-size: 25px;
+  }
+  .RedesSociales img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+/*# sourceMappingURL=Pintoras.css.map */

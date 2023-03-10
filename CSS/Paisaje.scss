@@ -1,0 +1,316 @@
+// Variables
+
+$Color-Letras: white;
+$Color-2do-PieDePagina: aqua;
+
+@media (max-width: 767px){
+
+    /* Encabezado */
+
+    .Encabezado{
+        video{
+            height: 100%;
+            width: 100%;
+        }
+
+        .Logotipo{
+            position: absolute;
+            top: -7px;
+            margin: 5%;
+            a{
+                font-size: 12px;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+
+        .Listas-Encabezado-PantallasPC{
+            display: none;
+        }
+
+        .BotónHamburguesa{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            top: -12px;
+            left: 65vw;
+            margin: 5%;
+            .Label-Menu{
+                height: 30px;
+                width: 50px;
+                cursor: pointer;
+                position: relative;
+                left: 1em;
+            }
+
+            .Label-Menu #Spn-1, #Spn-2, #Spn-3{
+                position: absolute;
+                top: 10px;
+                height: 4px;
+                width: 20px;
+                content: '';
+                background: white;
+                border-radius: 25px;
+                transition: all 400ms ease-in-out;
+            }
+
+            #Spn-2{
+                top: 16px;
+            }
+
+            #Spn-3{
+                top: 22px;
+            }
+
+            #Btn-Menu{
+                display: none;
+            }
+
+            #Btn-Menu:checked ~ .Label-Menu #Spn-1{
+                transform: rotate(140deg);
+                top: 16px;
+            }
+
+            #Btn-Menu:checked ~ .Label-Menu #Spn-2{
+                opacity: 0;
+            }
+
+            #Btn-Menu:checked ~ .Label-Menu #Spn-3{
+                transform: rotate(-140deg);
+                top: 16px;
+            }
+            .Listas-Encabezado{
+                display: none;
+                padding: 10px;
+                position: absolute;
+                top: 3em;
+                left: -40vw;
+                li{
+                    list-style: none;
+                    width: 100%;
+                }
+                a{
+                    font-size: 4vw;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+            #Btn-Menu:checked ~ .Listas-Encabezado{
+                display: block;
+            }
+
+            /* Menú - <main> */
+            
+            .Menu-Encabezado{
+                color: white;
+                .TítuloDelMenu{
+                    font-size: 6vw;
+                    text-transform: uppercase;
+                    position: absolute;
+                    top: 2em;
+                    left: -60vw;
+                }
+                .SubTítuloDelMenu{
+                    font-size: 2vw;
+                    position: absolute;
+                    top: 15em;
+                    left: -60vw;
+                    text-transform: capitalize;
+                }
+                .BotónDelMenu{
+                    position: absolute;
+                    top: 8.3em;
+                    left: -60vw;
+                    font-size: 4vw;
+                    button{
+                        border-radius: 50px;
+                    }
+                    button:hover{
+                        background-color: orangered;
+                    }
+                }
+            }
+            #Btn-Menu:checked ~ .Menu-Encabezado{
+                display: none;
+            }
+
+            /* Pie de Página - RS */
+
+            .PieDePágina-RS{
+                display: flex;
+                position: absolute;
+                top: 5.7em;
+                left: -60vw;
+                font-size: 7vw;
+                a{
+                    padding: 2px;
+                }
+                img{
+                    height: 7vw;
+                    width: 7vw;
+                }
+            }
+
+            #Btn-Menu:checked ~ .PieDePágina-RS{
+                display: none;
+            }
+
+        }
+
+    }
+
+    .Menu{
+        display: none;
+    }
+
+    .PieDePáginaRS{
+        display: none;
+    }
+
+    .PieDePágina{
+        background-color: gray;
+        color: black;
+        .Créditos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .PilaresyEscuelaDeCódigo{
+                img{
+                    height: 38px;
+                    width: 75px;
+                }
+            }
+        }
+        .RedesSociales{
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ImágenesRS{
+                display: flex;
+                img{
+                    height: 30px;
+                    width: 40px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 768px){
+    /* Encabezado */
+
+    .Encabezado{
+        video{
+            height: 100%;
+            width: 100%;
+        }
+
+        .Logotipo{
+            position: absolute;
+            top: -5px;
+            margin: 5%;
+            a{
+                font-size: 2vw;
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+        .Listas-Encabezado-PantallasPC{
+            display: flex;
+            position: absolute;
+            top: -5px;
+            left: 70vw;
+            margin: 5%;
+            li{
+                list-style: none;
+                margin-left: 1em;
+            }
+            a{
+                font-size: 2vw;
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+        .BotónHamburguesa{
+            display: none;
+        }
+
+    }
+
+    .Menu{
+        position: absolute;
+        top: 20vw;
+        left: 8vw;
+        .TítuloDelMenu{
+            color: white;
+            text-transform: uppercase;
+            font-size: 4vw;
+        }
+        .SubTítuloDelMenu{
+            color: white;
+            text-transform: capitalize;
+            font-size: 1.5vw;
+        }
+        .BotónDelMenu{
+            font-size: 3vw;
+            button{
+                border-radius: 50px;
+            }
+            button:hover{
+                background-color: orangered;
+            }
+        }
+    }
+
+    .PieDePáginaRS{
+        display: flex;
+        position: absolute;
+        top: 42vw;
+        left: 8vw;
+        a{
+            margin: 0.5em;
+        }
+        img{
+            height: 3vw;
+            width: 3vw;
+        }
+    }
+
+    .PieDePágina{
+        background-color: gray;
+        color: black;
+        .Créditos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            font-size: 30px;
+            .PilaresyEscuelaDeCódigo{
+                img{
+                    height: 50px;
+                    width: 100px;
+                }
+            }
+        }
+        .RedesSociales{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ImágenesRS{
+                img{
+                    height: 75px;
+                    width: 75px;
+                }
+            }
+        }
+    }
+
+}

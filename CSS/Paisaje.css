@@ -1,0 +1,271 @@
+@charset "UTF-8";
+@media (max-width: 767px) {
+  /* Encabezado */
+  .Encabezado video {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado .Logotipo {
+    position: absolute;
+    top: -7px;
+    margin: 5%;
+  }
+  .Encabezado .Logotipo a {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .Encabezado .Listas-Encabezado-PantallasPC {
+    display: none;
+  }
+  .Encabezado .BotónHamburguesa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: -12px;
+    left: 65vw;
+    margin: 5%;
+    /* Menú - <main> */
+    /* Pie de Página - RS */
+  }
+  .Encabezado .BotónHamburguesa .Label-Menu {
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    position: relative;
+    left: 1em;
+  }
+  .Encabezado .BotónHamburguesa .Label-Menu #Spn-1, .Encabezado .BotónHamburguesa #Spn-2, .Encabezado .BotónHamburguesa #Spn-3 {
+    position: absolute;
+    top: 10px;
+    height: 4px;
+    width: 20px;
+    content: "";
+    background: white;
+    border-radius: 25px;
+    transition: all 400ms ease-in-out;
+  }
+  .Encabezado .BotónHamburguesa #Spn-2 {
+    top: 16px;
+  }
+  .Encabezado .BotónHamburguesa #Spn-3 {
+    top: 22px;
+  }
+  .Encabezado .BotónHamburguesa #Btn-Menu {
+    display: none;
+  }
+  .Encabezado .BotónHamburguesa #Btn-Menu:checked ~ .Label-Menu #Spn-1 {
+    transform: rotate(140deg);
+    top: 16px;
+  }
+  .Encabezado .BotónHamburguesa #Btn-Menu:checked ~ .Label-Menu #Spn-2 {
+    opacity: 0;
+  }
+  .Encabezado .BotónHamburguesa #Btn-Menu:checked ~ .Label-Menu #Spn-3 {
+    transform: rotate(-140deg);
+    top: 16px;
+  }
+  .Encabezado .BotónHamburguesa .Listas-Encabezado {
+    display: none;
+    padding: 10px;
+    position: absolute;
+    top: 3em;
+    left: -40vw;
+  }
+  .Encabezado .BotónHamburguesa .Listas-Encabezado li {
+    list-style: none;
+    width: 100%;
+  }
+  .Encabezado .BotónHamburguesa .Listas-Encabezado a {
+    font-size: 4vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Encabezado .BotónHamburguesa #Btn-Menu:checked ~ .Listas-Encabezado {
+    display: block;
+  }
+  .Encabezado .BotónHamburguesa .Menu-Encabezado {
+    color: white;
+  }
+  .Encabezado .BotónHamburguesa .Menu-Encabezado .TítuloDelMenu {
+    font-size: 6vw;
+    text-transform: uppercase;
+    position: absolute;
+    top: 2em;
+    left: -60vw;
+  }
+  .Encabezado .BotónHamburguesa .Menu-Encabezado .SubTítuloDelMenu {
+    font-size: 2vw;
+    position: absolute;
+    top: 15em;
+    left: -60vw;
+    text-transform: capitalize;
+  }
+  .Encabezado .BotónHamburguesa .Menu-Encabezado .BotónDelMenu {
+    position: absolute;
+    top: 8.3em;
+    left: -60vw;
+    font-size: 4vw;
+  }
+  .Encabezado .BotónHamburguesa .Menu-Encabezado .BotónDelMenu button {
+    border-radius: 50px;
+  }
+  .Encabezado .BotónHamburguesa .Menu-Encabezado .BotónDelMenu button:hover {
+    background-color: orangered;
+  }
+  .Encabezado .BotónHamburguesa #Btn-Menu:checked ~ .Menu-Encabezado {
+    display: none;
+  }
+  .Encabezado .BotónHamburguesa .PieDePágina-RS {
+    display: flex;
+    position: absolute;
+    top: 5.7em;
+    left: -60vw;
+    font-size: 7vw;
+  }
+  .Encabezado .BotónHamburguesa .PieDePágina-RS a {
+    padding: 2px;
+  }
+  .Encabezado .BotónHamburguesa .PieDePágina-RS img {
+    height: 7vw;
+    width: 7vw;
+  }
+  .Encabezado .BotónHamburguesa #Btn-Menu:checked ~ .PieDePágina-RS {
+    display: none;
+  }
+  .Menu {
+    display: none;
+  }
+  .PieDePáginaRS {
+    display: none;
+  }
+  .PieDePágina {
+    background-color: gray;
+    color: black;
+  }
+  .PieDePágina .Créditos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .PieDePágina .Créditos .PilaresyEscuelaDeCódigo img {
+    height: 38px;
+    width: 75px;
+  }
+  .PieDePágina .RedesSociales {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .PieDePágina .RedesSociales .ImágenesRS {
+    display: flex;
+  }
+  .PieDePágina .RedesSociales .ImágenesRS img {
+    height: 30px;
+    width: 40px;
+  }
+}
+@media (min-width: 768px) {
+  /* Encabezado */
+  .Encabezado video {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado .Logotipo {
+    position: absolute;
+    top: -5px;
+    margin: 5%;
+  }
+  .Encabezado .Logotipo a {
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Encabezado .Listas-Encabezado-PantallasPC {
+    display: flex;
+    position: absolute;
+    top: -5px;
+    left: 70vw;
+    margin: 5%;
+  }
+  .Encabezado .Listas-Encabezado-PantallasPC li {
+    list-style: none;
+    margin-left: 1em;
+  }
+  .Encabezado .Listas-Encabezado-PantallasPC a {
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Encabezado .BotónHamburguesa {
+    display: none;
+  }
+  .Menu {
+    position: absolute;
+    top: 20vw;
+    left: 8vw;
+  }
+  .Menu .TítuloDelMenu {
+    color: white;
+    text-transform: uppercase;
+    font-size: 4vw;
+  }
+  .Menu .SubTítuloDelMenu {
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+  }
+  .Menu .BotónDelMenu {
+    font-size: 3vw;
+  }
+  .Menu .BotónDelMenu button {
+    border-radius: 50px;
+  }
+  .Menu .BotónDelMenu button:hover {
+    background-color: orangered;
+  }
+  .PieDePáginaRS {
+    display: flex;
+    position: absolute;
+    top: 42vw;
+    left: 8vw;
+  }
+  .PieDePáginaRS a {
+    margin: 0.5em;
+  }
+  .PieDePáginaRS img {
+    height: 3vw;
+    width: 3vw;
+  }
+  .PieDePágina {
+    background-color: gray;
+    color: black;
+  }
+  .PieDePágina .Créditos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .PieDePágina .Créditos .PilaresyEscuelaDeCódigo img {
+    height: 50px;
+    width: 100px;
+  }
+  .PieDePágina .RedesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .PieDePágina .RedesSociales .ImágenesRS img {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+/*# sourceMappingURL=Paisaje.css.map */

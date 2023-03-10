@@ -1,0 +1,297 @@
+@charset "UTF-8";
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 767px) {
+  /* Encabezado - <header> */
+  .Encabezado1 img {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado1 b {
+    top: 5em;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -17vw;
+    text-transform: uppercase;
+    font-size: 5vw;
+  }
+  .SubEncabezado1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .SubEncabezado1 b {
+    font-size: 25px;
+  }
+  .SubEncabezado1 p {
+    font-size: 17px;
+  }
+  /* Menu - <main> */
+  .Menu {
+    background-color: black;
+    color: white;
+  }
+  .Encabezado2 img {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado2 b {
+    background-color: black;
+    color: white;
+    font-size: 5vw;
+    text-transform: uppercase;
+    padding: 10px;
+    position: absolute;
+    left: 20%;
+    transform: translate(0%, 160%);
+  }
+  .SubEncabezado2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .SubEncabezado2 b {
+    font-size: 25px;
+  }
+  .SubEncabezado2 p {
+    font-size: 17px;
+  }
+  .Encabezado3 img {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado3 b {
+    background-color: black;
+    color: white;
+    font-size: 5vw;
+    text-transform: uppercase;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -5em;
+    transform: translate(0%, 175%);
+  }
+  .SubEncabezado3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .SubEncabezado3 b {
+    font-size: 25px;
+  }
+  .SubEncabezado3 p {
+    font-size: 17px;
+  }
+  .Encabezado4 img {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado4 b {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 5vw;
+    left: 2em;
+    transform: translate(0%, 190%);
+  }
+  /* Pie de Página: Créditos 
+  y Redes Sociales - <footer>*/
+  .PieDePágina {
+    background-color: aqua;
+    padding: 20px;
+  }
+  .Créditos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .Créditos small {
+    font-size: 12px;
+  }
+  .PilaresyEscuelaDeCódigo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .PilaresyEscuelaDeCódigo img {
+    height: 50px;
+    width: 75px;
+  }
+  .RedesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .RedesSociales small {
+    font-size: 20px;
+  }
+  .ImágenesRS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ImágenesRS img {
+    height: 50px;
+    width: 55px;
+  }
+}
+@media (min-width: 768px) {
+  /* Encabezado - <header> */
+  .Encabezado1 img {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado1 b {
+    background-color: black;
+    color: white;
+    font-size: 5vw;
+    text-transform: uppercase;
+    padding: 10px;
+    position: absolute;
+    left: 32%;
+    transform: translate(0%, 250%);
+  }
+  .SubEncabezado1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .SubEncabezado1 b {
+    font-size: 30px;
+  }
+  .SubEncabezado1 p {
+    font-size: 20px;
+  }
+  /* Menu - <main> */
+  .Menu {
+    background-color: black;
+    color: white;
+  }
+  .Encabezado2 img {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado2 b {
+    background-color: black;
+    color: white;
+    font-size: 5vw;
+    text-transform: uppercase;
+    padding: 10px;
+    position: absolute;
+    left: 22%;
+    transform: translate(0%, 200%);
+  }
+  .SubEncabezado2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .SubEncabezado2 b {
+    font-size: 30px;
+  }
+  .SubEncabezado2 p {
+    font-size: 20px;
+  }
+  .Encabezado3 img {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado3 b {
+    background-color: black;
+    color: white;
+    font-size: 5vw;
+    text-transform: uppercase;
+    padding: 10px;
+    position: absolute;
+    left: 28%;
+    transform: translate(0%, 300%);
+  }
+  .SubEncabezado3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .SubEncabezado3 b {
+    font-size: 30px;
+  }
+  .SubEncabezado3 p {
+    font-size: 20px;
+  }
+  .Encabezado4 img {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado4 b {
+    background-color: black;
+    color: white;
+    font-size: 5vw;
+    text-transform: uppercase;
+    padding: 10px;
+    position: absolute;
+    left: 16%;
+    transform: translate(0%, 300%);
+  }
+  /* Pie de Página: Créditos 
+  y Redes Sociales - <footer>*/
+  .PieDePágina {
+    background-color: aqua;
+    padding: 20px;
+  }
+  .Créditos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .Créditos small {
+    font-size: 21px;
+  }
+  .PilaresyEscuelaDeCódigo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .PilaresyEscuelaDeCódigo img {
+    height: 125px;
+    width: 200px;
+  }
+  .RedesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .RedesSociales small {
+    font-size: 30px;
+  }
+  .ImágenesRS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ImágenesRS img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+/*# sourceMappingURL=Pilares.css.map */

@@ -1,0 +1,412 @@
+// Variables
+
+$Color-Fondo: rgb(252, 186, 246);
+
+$Color-CajasPintoras: rgb(231, 46, 255);
+
+$Color-Otra: rgb(147, 60, 168);
+
+$Color-Letra: purple;
+
+/* Responsive Design */
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+@media (max-width: 767px){
+    body{
+        background-color: $Color-Fondo;
+    }
+
+    .Encabezado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            font-size: 26px;
+            color: $Color-Otra;
+        }
+        #Subtítulo1{
+            font-size: 20px;
+            color: $Color-Letra;
+        }
+        #Texto1{
+            font-size: 15px;
+        }
+        #Subtítulo2{
+            font-size: 20px;
+            color: $Color-Letra;
+        }
+        #Texto2{
+            font-size: 15px;
+        }
+    }
+
+    .Menu{
+        section{
+            text-align: end;
+            font-size: 20px;
+        }
+    }
+
+    .CajasDePintoras{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        div{
+            background-color: rgb(177, 92, 177);
+        }
+    }
+
+    .LilliaCarrillo{
+        border: 1px solid purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        b{
+            font-size: 20px;
+            color: purple;
+        }
+        p{
+            font-size: 16px;
+            color: rgb(255, 106, 131);
+        }
+        img{
+            height: 175px;
+            width: 210px;
+        }
+        em{
+            font-size: 15px;
+        }
+    }
+
+    .LolaCueto{
+        border: 1px solid purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        b{
+            font-size: 20px;
+            color: purple;
+        }
+        p{
+            font-size: 16px;
+            color: rgb(255, 106, 131);
+        }
+        img{
+            height: 175px;
+            width: 210px;
+        }
+        em{
+            font-size: 15px;
+        }
+    }
+
+    .CeliaCalderon{
+        border: 1px solid purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        b{
+            font-size: 20px;
+            color: purple;
+        }
+        p{
+            font-size: 16px;
+            color: rgb(255, 106, 131);
+        }
+        img{
+            height: 175px;
+            width: 210px;
+        }
+        em{
+            font-size: 15px;
+        }
+    }
+
+    .RemediosVaro{
+        border: 1px solid purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        b{
+            font-size: 20px;
+            color: purple;
+        }
+        p{
+            font-size: 16px;
+            color: rgb(255, 106, 131);
+        }
+        img{
+            height: 175px;
+            width: 210px;
+        }
+        em{
+            font-size: 15px;
+        }
+    }
+
+    /* Pie de Página - Referencias */
+
+    .PieDePágina{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Referencias{
+        padding: 20px;
+        li{
+            list-style: none;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: $Color-Letra;
+        }
+    }
+
+    /* Pie de Página - Créditos y Redes */
+
+    .CréditosysusRedes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        small{
+            font-size: 22px;
+        }
+    }
+
+    .PilaresyEscuelaDeCódigo{
+        img{
+            height: 50px;
+            width: 75px;
+        }
+    }
+
+    .RedesSociales{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        small{
+            font-size: 24px;
+        }
+        img{
+            height: 35px;
+            width: 40px;
+        }
+    }
+
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: $Color-Fondo;
+    }
+
+    .Encabezado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            font-size: 50px;
+            color: $Color-Otra;
+        }
+
+        #Subtítulo1{
+            font-size: 40px;
+            color: $Color-Letra;
+        }
+
+        #Texto1{
+            font-size: 30px;
+        }
+
+        #Subtítulo2{
+            font-size: 40px;
+            color: $Color-Letra;
+        }
+
+        #Texto2{
+            font-size: 30px;
+        }
+    }
+
+    .Menu{
+        #Mujeres{
+            font-size: 40px;
+            display: flex;
+            justify-content: end;
+        }
+    }
+
+    .CajasDePintoras{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            background-color: rgb(177, 92, 177);
+        }
+    }
+
+    .LilliaCarrillo{
+        border: 1px solid purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        b{
+            font-size: 20px;
+            color: purple;
+        }
+        p{
+            font-size: 15px;
+            color: rgb(255, 150, 167);
+        }
+        img{
+            height: 150px;
+            width: 200px;
+        }
+        em{
+            font-size: 15px;
+        }
+    }
+
+    .LolaCueto{
+        border: 1px solid purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        b{
+            font-size: 20px;
+            color: purple;
+        }
+        p{
+            font-size: 15px;
+            color: rgb(255, 150, 167);
+        }
+        img{
+            height: 150px;
+            width: 200px;
+        }
+        em{
+            font-size: 15px;
+        }
+    }
+
+    .CeliaCalderon{
+        border: 1px solid purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        b{
+            font-size: 20px;
+            color: purple;
+        }
+        p{
+            font-size: 15px;
+            color: rgb(255, 150, 167);
+        }
+        img{
+            height: 150px;
+            width: 200px;
+        }
+        em{
+            font-size: 15px;
+        }
+    }
+
+    .RemediosVaro{
+        border: 1px solid purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        b{
+            font-size: 20px;
+            color: purple;
+        }
+        p{
+            font-size: 15px;
+            color: rgb(255, 150, 167);
+        }
+        img{
+            height: 150px;
+            width: 200px;
+        }
+        em{
+            font-size: 15px;
+        }
+    }
+
+    /* Pie de Página y Referencias */
+
+    .Referencias{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            list-style: none;
+        }
+        a{
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: $Color-Otra;
+        }
+    }
+
+    /* Créditos a Pilares Escuela de Código 
+    y Mis Redes Sociales*/
+
+    .CréditosysusRedes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        small{
+            font-size: 20px;
+        }
+    }
+
+    .PilaresyEscuelaDeCódigo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 50px;
+            width: 100px;
+        }
+    }
+
+    .RedesSociales{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        small{
+            font-size: 25px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+}
